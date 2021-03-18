@@ -1,0 +1,8 @@
+# ~/.config/kanshi/config
+# get output names with
+# swaymsg -t get_outputs
+
+profile {
+  output "Unknown 0x313D 0x00000000" position 0,1441
+  output "Lenovo Group Limited LEN T27h-20 VNA4WAZW" position 0,0
+  }
