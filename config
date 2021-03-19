@@ -3,17 +3,17 @@
 # swaymsg -t get_outputs
 
 profile {
-  output "Unknown 0x313D 0x00000000" mode 1920x1080 position 0,1441
-  output "Lenovo Group Limited LEN T27h-20 VNA4WAZW" mode 1600x1080 position 0,0
+  output "Unknown 0x313D 0x00000000" mode 1920x1080@60Hz position 0,1441
+  output "Lenovo Group Limited LEN T27h-20 VNA4WAZW" mode 1600x1080@60Hz position 0,0
   }
 
 profile {
-  output "Unknown 0x313D 0x00000000" mode 1920x1080 position 0,1441
-  output "Lenovo Group Limited LEN T27h-20 VNA4WB24" mode 1600x900 position 2560,0
+  output "Unknown 0x313D 0x00000000" mode 1920x1080@60Hz position 0,1441
+  output "Lenovo Group Limited LEN T27h-20 VNA4WB24" mode 1600x900@60Hz position 2560,0
   }
 
 profile {
-  output "Lenovo Group Limited LEN T27h-20 VNA4WAZW" mode 1600x900 position 0,0
-  output "Unknown 0x313D 0x00000000" mode 1920x1080 position 0,1440
-  output "Lenovo Group Limited LEN T27h-20 VNA4WB24" mode 1600x900 position 2560,0
+  output "Lenovo Group Limited LEN T27h-20 VNA4WAZW" mode 1600x900@60Hz position 0,0
+  output "Unknown 0x313D 0x00000000" mode 1920x1080@60Hz position 0,1440
+  output "Lenovo Group Limited LEN T27h-20 VNA4WB24" mode 1600x900@60Hz position 2560,0
   }
