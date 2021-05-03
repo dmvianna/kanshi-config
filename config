@@ -2,18 +2,34 @@
 # get output names with
 # swaymsg -t get_outputs
 
-profile {
+profile magpie-one {
   output "Unknown 0x313D 0x00000000" mode 1920x1080@60Hz position 0,1441
   output "Lenovo Group Limited LEN T27h-20 VNA4WAZW" mode 1600x1080@60Hz position 0,0
   }
 
-profile {
+profile magpie-two {
   output "Unknown 0x313D 0x00000000" mode 1920x1080@60Hz position 0,1441
   output "Lenovo Group Limited LEN T27h-20 VNA4WB24" mode 1600x900@60Hz position 2560,0
   }
 
-profile {
+profile magpie-three {
   output "Unknown 0x313D 0x00000000" mode 1920x1080@60Hz position 0,1440
   output "Lenovo Group Limited LEN T27h-20 VNA4WAZW" mode 1600x900@60Hz position 0,0
   output "Lenovo Group Limited LEN T27h-20 VNA4WB24" mode 1600x900@60Hz position 2560,0
+  }
+
+profile caju-one {
+  output "Unknown 0x573D 0x00000000" mode 1920x1080@60Hz position 0,1441
+  output "Lenovo Group Limited LEN T27h-20 VNA4WAZW" mode 2560x1440@60Hz position 0,0
+  }
+
+profile caju-two {
+  output "Unknown 0x573D 0x00000000" mode 1920x1080@60Hz position 0,1441
+  output "Lenovo Group Limited LEN T27h-20 VNA4WB24" mode 2560x1440@60Hz position 2560,0
+  }
+
+profile caju-three {
+  output "Unknown 0x573D 0x00000000" mode 1920x1080@60Hz position 0,1440
+  output "Lenovo Group Limited LEN T27h-20 VNA4WAZW" mode 2560x1440@60Hz position 0,0
+  output "Lenovo Group Limited LEN T27h-20 VNA4WB24" mode 2560x1440@60Hz position 2560,0
   }
