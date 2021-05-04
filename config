@@ -29,7 +29,7 @@ profile caju-two {
   }
 
 profile caju-three {
-  output "Unknown 0x573D 0x00000000" mode 1920x1080@60Hz position 0,1440
+  output "Unknown 0x573D 0x00000000" mode 1920x1080@60Hz position 1280,1440
   output "Lenovo Group Limited LEN T27h-20 VNA4WAZW" mode 2560x1440@60Hz position 0,0
   output "Lenovo Group Limited LEN T27h-20 VNA4WB24" mode 2560x1440@60Hz position 2560,0
   }
